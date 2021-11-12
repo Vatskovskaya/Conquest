@@ -12,6 +12,7 @@ a{
 }
 img{
 	max-width: 100%;
+	height: auto;
 }
 ul{
 	list-style: none;
@@ -83,6 +84,9 @@ h2,
 .btn:hover{
 	background-color: #D4B098;
 	transition: 0.2s;
+}
+.header__burger{
+	display: none;
 }
 /* ----------------------------- Header --------------------- */
 .page-header{
